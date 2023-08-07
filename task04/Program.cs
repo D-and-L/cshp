@@ -7,14 +7,14 @@
 // 22 3 9 -> 22
 
 Console.WriteLine("Введите три числа");
-int numberA = Convert.ToInt32(Console.ReadLine());
-int numberB = Convert.ToInt32(Console.ReadLine());
-int numderD = Convert.ToInt32(Console.ReadLine());
+int a = Convert.ToInt32(Console.ReadLine());
+int b = Convert.ToInt32(Console.ReadLine());
+int c = Convert.ToInt32(Console.ReadLine());
 
-int max = numberA;
+int max = a;
 
-if(numberA>max) max = numberA; 
-if(numberB>max) max = numberB; 
-if(numberD>max) max = numberD; 
+if(a>max) max = a; 
+if(b>max) max = b; 
+if(c>max) max = c; 
 
 Console.WriteLine($"max = {max}");
